@@ -10,8 +10,6 @@
 ## Otherwise, it calculates the inverse of matrix and sets the value of the inverse in the cache via the setInverse function.
 
 ## makeCacheMatrix creates a special list containing the function set/get matrix and set/get inverse
-
-
 makeCacheMatrix <- function(x = matrix()) {
     # initialize the inverse property
     i <- NULL
